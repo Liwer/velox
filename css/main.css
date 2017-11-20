@@ -1,0 +1,173 @@
+/* line 1, main.less */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  text-decoration: none;
+}
+/* line 6, main.less */
+.innerWrapper {
+  max-width: 1200px;
+}
+/* line 10, main.less */
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/* line 16, main.less */
+.head {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* line 24, main.less */
+.line {
+  width: 147px;
+  border: 2px solid #00a5ff;
+}
+/* line 29, main.less */
+header {
+  background-image: url("../img/headerBg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 34, main.less */
+header #logo {
+  margin-top: 26px;
+}
+/* line 37, main.less */
+header .nav {
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 11px;
+}
+/* line 41, main.less */
+header .nav li {
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  color: #e3e4e5;
+  display: block;
+  float: left;
+  margin: 15px;
+  padding: 15px;
+}
+/* line 51, main.less */
+header h1 {
+  font-size: 55px;
+  text-align: center;
+  margin-top: 191px;
+  font-family: 'Lora', serif;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+/* line 59, main.less */
+header h4 {
+  margin-top: 50px;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+/* line 67, main.less */
+header button.btn-primary {
+  color: #ffffff;
+  background-color: #00a5ff;
+  border: none;
+  padding: 18px 60px;
+  font-size: 24px;
+  border-radius: 33px;
+  margin-top: 92px;
+  margin-bottom: 140px;
+}
+/* line 79, main.less */
+section.services {
+  padding: 74px 0 100px;
+}
+/* line 81, main.less */
+section.services .items {
+  text-align: center;
+  margin-top: 96px;
+}
+/* line 84, main.less */
+section.services .items img {
+  margin-bottom: 20px;
+}
+/* line 87, main.less */
+section.services .items h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 1px;
+}
+/* line 93, main.less */
+section.services .items hr.item {
+  width: 44px;
+  border: 1px solid #888888;
+}
+/* line 97, main.less */
+section.services .items p {
+  font-family: 'Open Sans', sans-serif;
+  color: #d0d0d0;
+}
+/* line 104, main.less */
+section.portfolio {
+  padding: 46px 0 78px;
+  background-color: #f5f6f8;
+}
+/* line 107, main.less */
+section.portfolio ul.nav {
+  margin-bottom: 48px;
+  margin-top: 63px;
+}
+/* line 110, main.less */
+section.portfolio ul.nav li {
+  float: left;
+  margin: 0 30px 0 30px;
+}
+/* line 113, main.less */
+section.portfolio ul.nav li button {
+  background-color: #f5f6f8;
+  color: #b4b5b5;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  border: none;
+}
+/* line 119, main.less */
+section.portfolio ul.nav li button:focus {
+  color: #3fb1fe;
+  border-bottom: 1px solid #3fb1fe;
+  padding-bottom: 10px;
+  background: none;
+  outline: 0;
+}
+/* line 129, main.less */
+section.portfolio .portfolioWrapper {
+  max-width: 1170px;
+}
+/* line 131, main.less */
+section.portfolio .portfolioWrapper .btn {
+  color: #ffffff;
+  background-color: #00a5ff;
+  border: none;
+  padding: 18px 60px;
+  font-size: 24px;
+  border-radius: 33px;
+  margin-top: 92px;
+  margin-bottom: 78px;
+  text-transform: uppercase;
+}
+/* line 145, main.less */
+section.brands {
+  padding-top: 70px;
+}
+/*# sourceMappingURL=main.css.map */
